@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   font-family: "Outfit", "poppins"," sans-serif";
+}
+.container{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #484545; 
+
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom,#ffc0cbb6, #ffdab978);
+  border-radius: 10px; 
+}
+
+
+

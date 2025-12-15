@@ -1,0 +1,14 @@
+.footer{
+    margin: 20px auto 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+ .footer ul{
+      display: flex;
+      gap: 20px;
+}
+.footer ul li{
+    list-style-type: none;
+}

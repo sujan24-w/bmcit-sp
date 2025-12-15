@@ -1,0 +1,52 @@
+.campus{
+    width: 90%;
+    margin: 70px auto;
+    text-align: center;
+}
+.gallery{
+    display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 100%;
+     margin-bottom: 40px;
+     
+ 
+}
+.gallery img{
+    /* flex-basis: 45%; */
+ width: 23%;
+ border-radius: 8px;
+}
+
+.btnc{
+margin: auto;
+    background-color:#212ea0;;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: none;
+    outline: none;
+    border-radius: 26px;
+    padding:  14px 22px;
+    cursor: pointer;
+}
+.btnc > img{
+    width: 16px;
+}
+
+
+@media screen and  (max-width:801px){
+
+    .gallery{
+    flex-wrap: wrap;
+     gap: 10px;
+}
+.gallery img{
+    width: 48% ;
+    
+    
+}
+}
+    

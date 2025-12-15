@@ -1,0 +1,88 @@
+.contactus{
+    margin: 40px auto 60px auto;
+    padding: 10px;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.leftc{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 46%;
+    color: #676767;
+   
+    
+}
+.leftc > h3{
+    display: flex;
+  align-items: center;
+    flex-wrap: wrap;
+     margin-bottom: 20px;
+     font-size: 25px;
+  
+}
+
+.leftc > h3 > img{
+    max-height: 35px;
+    margin-left: 10px;
+   
+    
+} 
+.leftc >  p{
+    color: gray;
+    font-size: 17px;
+     margin-bottom: 20px;
+
+}
+.c-icon{
+    display: flex;
+   flex-direction: row-reverse;
+   justify-content: flex-end;
+   align-items: center;
+   margin-bottom: 20px;
+}
+.c-icon img{
+    max-width: 25px;
+    margin-right: 10px;
+}
+.c-icon p{
+    max-width: 305px;
+}
+
+.formele{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formele input,textarea{
+  
+    margin: 5px 0 15px 0;
+    border: none;
+    outline: none;
+    background-color: #ebecfe;
+    padding: 15px;
+}
+.sub-s-btn{
+    display: flex;
+    margin: 0;
+     width: fit-content;
+    
+} 
+
+@media screen and (max-width:840px){
+    .leftc h3{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width:701px){
+    .contactus{
+        flex-direction: column;
+    }
+}
+@media  (max-width:320px){
+   .leftc h3 img{
+        height: 20px;
+        margin-left: 3px;
+    }
+}

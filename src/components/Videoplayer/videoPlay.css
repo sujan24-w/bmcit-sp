@@ -1,0 +1,26 @@
+.demovideo{
+    z-index: 20;
+display: flex;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+align-items: center;
+justify-content: center;
+background-color: rgba(0, 0, 0, 0.9);
+}
+.demovideo video{
+    width: 90%;
+    max-width: 910px;
+    height: auto;
+    border: 4px solid silver;
+    line-height: none;
+    
+}
+.demovideo.hidevideo{
+    display: none;
+}
+
+
+
