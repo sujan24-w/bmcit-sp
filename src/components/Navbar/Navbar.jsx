@@ -18,6 +18,10 @@ const togglemenuicon= ()=>{
    
 }
 
+const closeMenu = () => {
+  setMenuOpen(false);
+}
+
   return (
   
     <nav  className={`container  ${changecolor &&  "color-nav" }` }>
@@ -27,14 +31,14 @@ const togglemenuicon= ()=>{
     
    
   
-
+  
       <ul className={!menuOpen? "togglemenu" : "" }>
-        <li><Link  to="hero-container"  smooth={true} offset={0} duration={500} >Home</Link></li>
-        <li><Link  to="program"  smooth={true} offset={-100} duration={500}>Program</Link></li>
-        <li><Link  to="about"  smooth={true} offset={-170} duration={500}>About Us</Link></li>
-        <li><Link  to="gallery"  smooth={true} offset={-295} duration={500}>Campus</Link></li>
-        <li><Link  to="testimonial"  smooth={true} offset={-150} duration={500}>Testimonials</Link></li>
-        <li> <Link  to="contactus"  smooth={true} offset={-295} duration={500} className='btn'>Contact Us</Link></li>
+        <li  ><Link  to="hero-container"  smooth={true} offset={0} duration={500} onClick={closeMenu}  >Home</Link></li>
+        <li><Link  to="program"  smooth={true} offset={-100} duration={500}  onClick={closeMenu} >Program</Link></li>
+        <li><Link  to="about"  smooth={true} offset={-170} duration={500} onClick={closeMenu} >About Us</Link></li>
+        <li><Link  to="gallery"  smooth={true} offset={-295} duration={500} onClick={closeMenu} >Campus</Link></li>
+        <li><Link  to="testimonial"  smooth={true} offset={-150} duration={500} onClick={closeMenu} >Testimonials</Link></li>
+        <li> <Link  to="contactus"  smooth={true} offset={-295} duration={500}  onClick={closeMenu} className='btn'>Contact Us</Link></li>
       </ul>
 
     <img src={Menuicon} alt="menu icon" className={"menu-icon"} onClick={togglemenuicon} />

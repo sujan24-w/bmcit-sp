@@ -1,5 +1,5 @@
 {
-  "homepage": "https://sujan24-w.github.io/bmcid-sp",
+  "homepage": "https://sujan24-w.github.io/bmcit-sp",
   "name": "bmcsite",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
