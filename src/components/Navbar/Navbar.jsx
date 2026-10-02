@@ -14,7 +14,7 @@ function Navbar() {
   },[])
   const[menuOpen,setMenuOpen]=useState(false)
 const togglemenuicon= ()=>{
-  setMenuOpen(!menuOpen);
+  setMenuOpen(prev => !prev);
    
 }
 
